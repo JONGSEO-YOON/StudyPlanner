@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040089E81D8D19B40095272F /* TotalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040089E71D8D19B40095272F /* TotalCell.swift */; };
+		040089EA1D8D29E20095272F /* DayCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040089E91D8D29E20095272F /* DayCounterView.swift */; };
+		040089EC1D8D29EC0095272F /* WeekCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040089EB1D8D29EC0095272F /* WeekCounterView.swift */; };
+		040089EE1D8D29F50095272F /* MonthCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040089ED1D8D29F50095272F /* MonthCounterView.swift */; };
+		0476498B1D969A7F000C7107 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0476498A1D969A7F000C7107 /* CoreMotion.framework */; };
+		0476498D1D979FE7000C7107 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476498C1D979FE7000C7107 /* TimeViewController.swift */; };
+		04EFF4871D7FEB5A00397240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4861D7FEB5A00397240 /* AppDelegate.swift */; };
+		04EFF4891D7FEB5A00397240 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4881D7FEB5A00397240 /* MainViewController.swift */; };
+		04EFF48C1D7FEB5A00397240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EFF48A1D7FEB5A00397240 /* Main.storyboard */; };
+		04EFF48F1D7FEB5A00397240 /* StudyPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF48D1D7FEB5A00397240 /* StudyPlanner.xcdatamodeld */; };
+		04EFF4911D7FEB5A00397240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EFF4901D7FEB5A00397240 /* Assets.xcassets */; };
+		04EFF4941D7FEB5A00397240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EFF4921D7FEB5A00397240 /* LaunchScreen.storyboard */; };
+		04EFF49F1D7FEB5A00397240 /* StudyPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF49E1D7FEB5A00397240 /* StudyPlannerTests.swift */; };
+		04EFF4AA1D7FEB5A00397240 /* StudyPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4A91D7FEB5A00397240 /* StudyPlannerUITests.swift */; };
+		04EFF4B91D7FEBF200397240 /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4B71D7FEBF200397240 /* ListEntity+CoreDataProperties.swift */; };
+		04EFF4BA1D7FEBF200397240 /* ListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4B81D7FEBF200397240 /* ListEntity.swift */; };
+		04EFF4BC1D7FEC0400397240 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4BB1D7FEC0400397240 /* AddController.swift */; };
+		04EFF4BE1D7FEC0A00397240 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4BD1D7FEC0A00397240 /* UserCell.swift */; };
+		04EFF4C01D7FEC8400397240 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4BF1D7FEC8400397240 /* Item.swift */; };
+		04EFF4C21D80245A00397240 /* StudyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4C11D80245A00397240 /* StudyController.swift */; };
+		04EFF4CA1D85158600397240 /* DayEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4C81D85158600397240 /* DayEntity+CoreDataProperties.swift */; };
+		04EFF4CB1D85158600397240 /* DayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4C91D85158600397240 /* DayEntity.swift */; };
+		04EFF4CD1D89164300397240 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4CC1D89164300397240 /* CounterView.swift */; };
+		04EFF4CF1D8936AC00397240 /* TotalStudyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4CE1D8936AC00397240 /* TotalStudyController.swift */; };
+		04EFF4D11D8944A400397240 /* TotalCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF4D01D8944A400397240 /* TotalCounterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EFF49B1D7FEB5A00397240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EFF47B1D7FEB5900397240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EFF4821D7FEB5A00397240;
+			remoteInfo = StudyPlanner;
+		};
+		04EFF4A61D7FEB5A00397240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EFF47B1D7FEB5900397240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EFF4821D7FEB5A00397240;
+			remoteInfo = StudyPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040089E71D8D19B40095272F /* TotalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalCell.swift; sourceTree = "<group>"; };
+		040089E91D8D29E20095272F /* DayCounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCounterView.swift; sourceTree = "<group>"; };
+		040089EB1D8D29EC0095272F /* WeekCounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCounterView.swift; sourceTree = "<group>"; };
+		040089ED1D8D29F50095272F /* MonthCounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCounterView.swift; sourceTree = "<group>"; };
+		0476498A1D969A7F000C7107 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0476498C1D979FE7000C7107 /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		04EFF4831D7FEB5A00397240 /* Gayomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gayomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFF4861D7FEB5A00397240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EFF4881D7FEB5A00397240 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = StudyPlanner/MainViewController.swift; sourceTree = "<group>"; };
+		04EFF48B1D7FEB5A00397240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EFF48E1D7FEB5A00397240 /* StudyPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyPlanner.xcdatamodel; sourceTree = "<group>"; };
+		04EFF4901D7FEB5A00397240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EFF4931D7FEB5A00397240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EFF4951D7FEB5A00397240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EFF49A1D7FEB5A00397240 /* Gayomi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gayomi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFF49E1D7FEB5A00397240 /* StudyPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlannerTests.swift; sourceTree = "<group>"; };
+		04EFF4A01D7FEB5A00397240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EFF4A51D7FEB5A00397240 /* Gayomi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gayomi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFF4A91D7FEB5A00397240 /* StudyPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlannerUITests.swift; sourceTree = "<group>"; };
+		04EFF4AB1D7FEB5A00397240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EFF4B71D7FEBF200397240 /* ListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04EFF4B81D7FEBF200397240 /* ListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntity.swift; sourceTree = "<group>"; };
+		04EFF4BB1D7FEC0400397240 /* AddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddController.swift; path = StudyPlanner/AddController.swift; sourceTree = "<group>"; };
+		04EFF4BD1D7FEC0A00397240 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = StudyPlanner/UserCell.swift; sourceTree = "<group>"; };
+		04EFF4BF1D7FEC8400397240 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = StudyPlanner/Item.swift; sourceTree = "<group>"; };
+		04EFF4C11D80245A00397240 /* StudyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudyController.swift; path = StudyPlanner/StudyController.swift; sourceTree = "<group>"; };
+		04EFF4C81D85158600397240 /* DayEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DayEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04EFF4C91D85158600397240 /* DayEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayEntity.swift; sourceTree = "<group>"; };
+		04EFF4CC1D89164300397240 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		04EFF4CE1D8936AC00397240 /* TotalStudyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalStudyController.swift; sourceTree = "<group>"; };
+		04EFF4D01D8944A400397240 /* TotalCounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalCounterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EFF4801D7FEB5A00397240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476498B1D969A7F000C7107 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4971D7FEB5A00397240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4A21D7FEB5A00397240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EFF47A1D7FEB5900397240 = {
+			isa = PBXGroup;
+			children = (
+				0476498A1D969A7F000C7107 /* CoreMotion.framework */,
+				04EFF4C81D85158600397240 /* DayEntity+CoreDataProperties.swift */,
+				04EFF4C91D85158600397240 /* DayEntity.swift */,
+				04EFF4B71D7FEBF200397240 /* ListEntity+CoreDataProperties.swift */,
+				04EFF4B81D7FEBF200397240 /* ListEntity.swift */,
+				04EFF4C51D80249F00397240 /* Model */,
+				04EFF4851D7FEB5A00397240 /* StudyPlanner */,
+				04EFF49D1D7FEB5A00397240 /* StudyPlannerTests */,
+				04EFF4A81D7FEB5A00397240 /* StudyPlannerUITests */,
+				04EFF4841D7FEB5A00397240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EFF4841D7FEB5A00397240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF4831D7FEB5A00397240 /* Gayomi.app */,
+				04EFF49A1D7FEB5A00397240 /* Gayomi.xctest */,
+				04EFF4A51D7FEB5A00397240 /* Gayomi.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EFF4851D7FEB5A00397240 /* StudyPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF4861D7FEB5A00397240 /* AppDelegate.swift */,
+				04EFF48A1D7FEB5A00397240 /* Main.storyboard */,
+				04EFF4901D7FEB5A00397240 /* Assets.xcassets */,
+				04EFF4921D7FEB5A00397240 /* LaunchScreen.storyboard */,
+				04EFF4951D7FEB5A00397240 /* Info.plist */,
+				04EFF48D1D7FEB5A00397240 /* StudyPlanner.xcdatamodeld */,
+			);
+			path = StudyPlanner;
+			sourceTree = "<group>";
+		};
+		04EFF49D1D7FEB5A00397240 /* StudyPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF49E1D7FEB5A00397240 /* StudyPlannerTests.swift */,
+				04EFF4A01D7FEB5A00397240 /* Info.plist */,
+			);
+			path = StudyPlannerTests;
+			sourceTree = "<group>";
+		};
+		04EFF4A81D7FEB5A00397240 /* StudyPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF4A91D7FEB5A00397240 /* StudyPlannerUITests.swift */,
+				04EFF4AB1D7FEB5A00397240 /* Info.plist */,
+			);
+			path = StudyPlannerUITests;
+			sourceTree = "<group>";
+		};
+		04EFF4C41D80248E00397240 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF4BB1D7FEC0400397240 /* AddController.swift */,
+				04EFF4881D7FEB5A00397240 /* MainViewController.swift */,
+				04EFF4C11D80245A00397240 /* StudyController.swift */,
+				04EFF4CE1D8936AC00397240 /* TotalStudyController.swift */,
+				0476498C1D979FE7000C7107 /* TimeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04EFF4C51D80249F00397240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04EFF4BD1D7FEC0A00397240 /* UserCell.swift */,
+				040089E71D8D19B40095272F /* TotalCell.swift */,
+				04EFF4BF1D7FEC8400397240 /* Item.swift */,
+				04EFF4CC1D89164300397240 /* CounterView.swift */,
+				04EFF4D01D8944A400397240 /* TotalCounterView.swift */,
+				040089E91D8D29E20095272F /* DayCounterView.swift */,
+				040089EB1D8D29EC0095272F /* WeekCounterView.swift */,
+				040089ED1D8D29F50095272F /* MonthCounterView.swift */,
+				04EFF4C41D80248E00397240 /* Controller */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EFF4821D7FEB5A00397240 /* Gayomi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EFF4AE1D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "Gayomi" */;
+			buildPhases = (
+				04EFF47F1D7FEB5A00397240 /* Sources */,
+				04EFF4801D7FEB5A00397240 /* Frameworks */,
+				04EFF4811D7FEB5A00397240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gayomi;
+			productName = StudyPlanner;
+			productReference = 04EFF4831D7FEB5A00397240 /* Gayomi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EFF4991D7FEB5A00397240 /* GayomiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EFF4B11D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "GayomiTests" */;
+			buildPhases = (
+				04EFF4961D7FEB5A00397240 /* Sources */,
+				04EFF4971D7FEB5A00397240 /* Frameworks */,
+				04EFF4981D7FEB5A00397240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EFF49C1D7FEB5A00397240 /* PBXTargetDependency */,
+			);
+			name = GayomiTests;
+			productName = StudyPlannerTests;
+			productReference = 04EFF49A1D7FEB5A00397240 /* Gayomi.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EFF4A41D7FEB5A00397240 /* GayomiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EFF4B41D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "GayomiUITests" */;
+			buildPhases = (
+				04EFF4A11D7FEB5A00397240 /* Sources */,
+				04EFF4A21D7FEB5A00397240 /* Frameworks */,
+				04EFF4A31D7FEB5A00397240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EFF4A71D7FEB5A00397240 /* PBXTargetDependency */,
+			);
+			name = GayomiUITests;
+			productName = StudyPlannerUITests;
+			productReference = 04EFF4A51D7FEB5A00397240 /* Gayomi.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EFF47B1D7FEB5900397240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "윤종서";
+				TargetAttributes = {
+					04EFF4821D7FEB5A00397240 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z8ZPS2688S;
+						LastSwiftMigration = 0800;
+					};
+					04EFF4991D7FEB5A00397240 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 04EFF4821D7FEB5A00397240;
+					};
+					04EFF4A41D7FEB5A00397240 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 04EFF4821D7FEB5A00397240;
+					};
+				};
+			};
+			buildConfigurationList = 04EFF47E1D7FEB5900397240 /* Build configuration list for PBXProject "Gayomi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EFF47A1D7FEB5900397240;
+			productRefGroup = 04EFF4841D7FEB5A00397240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EFF4821D7FEB5A00397240 /* Gayomi */,
+				04EFF4991D7FEB5A00397240 /* GayomiTests */,
+				04EFF4A41D7FEB5A00397240 /* GayomiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EFF4811D7FEB5A00397240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFF4941D7FEB5A00397240 /* LaunchScreen.storyboard in Resources */,
+				04EFF4911D7FEB5A00397240 /* Assets.xcassets in Resources */,
+				04EFF48C1D7FEB5A00397240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4981D7FEB5A00397240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4A31D7FEB5A00397240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EFF47F1D7FEB5A00397240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476498D1D979FE7000C7107 /* TimeViewController.swift in Sources */,
+				04EFF4891D7FEB5A00397240 /* MainViewController.swift in Sources */,
+				040089E81D8D19B40095272F /* TotalCell.swift in Sources */,
+				04EFF48F1D7FEB5A00397240 /* StudyPlanner.xcdatamodeld in Sources */,
+				04EFF4BA1D7FEBF200397240 /* ListEntity.swift in Sources */,
+				04EFF4CD1D89164300397240 /* CounterView.swift in Sources */,
+				04EFF4CA1D85158600397240 /* DayEntity+CoreDataProperties.swift in Sources */,
+				04EFF4BC1D7FEC0400397240 /* AddController.swift in Sources */,
+				04EFF4C01D7FEC8400397240 /* Item.swift in Sources */,
+				040089EA1D8D29E20095272F /* DayCounterView.swift in Sources */,
+				040089EC1D8D29EC0095272F /* WeekCounterView.swift in Sources */,
+				04EFF4CB1D85158600397240 /* DayEntity.swift in Sources */,
+				04EFF4D11D8944A400397240 /* TotalCounterView.swift in Sources */,
+				04EFF4B91D7FEBF200397240 /* ListEntity+CoreDataProperties.swift in Sources */,
+				04EFF4871D7FEB5A00397240 /* AppDelegate.swift in Sources */,
+				04EFF4CF1D8936AC00397240 /* TotalStudyController.swift in Sources */,
+				04EFF4C21D80245A00397240 /* StudyController.swift in Sources */,
+				040089EE1D8D29F50095272F /* MonthCounterView.swift in Sources */,
+				04EFF4BE1D7FEC0A00397240 /* UserCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4961D7FEB5A00397240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFF49F1D7FEB5A00397240 /* StudyPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EFF4A11D7FEB5A00397240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFF4AA1D7FEB5A00397240 /* StudyPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EFF49C1D7FEB5A00397240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EFF4821D7FEB5A00397240 /* Gayomi */;
+			targetProxy = 04EFF49B1D7FEB5A00397240 /* PBXContainerItemProxy */;
+		};
+		04EFF4A71D7FEB5A00397240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EFF4821D7FEB5A00397240 /* Gayomi */;
+			targetProxy = 04EFF4A61D7FEB5A00397240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EFF48A1D7FEB5A00397240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFF48B1D7FEB5A00397240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EFF4921D7FEB5A00397240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFF4931D7FEB5A00397240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EFF4AC1D7FEB5A00397240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EFF4AD1D7FEB5A00397240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EFF4AF1D7FEB5A00397240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8ZPS2688S;
+				INFOPLIST_FILE = StudyPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.Gayoung;
+				PRODUCT_NAME = Gayomi;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04EFF4B01D7FEB5A00397240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8ZPS2688S;
+				INFOPLIST_FILE = StudyPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.Gayoung;
+				PRODUCT_NAME = Gayomi;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04EFF4B21D7FEB5A00397240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StudyPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.StudyPlannerTests;
+				PRODUCT_NAME = Gayomi;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gayomi.app/Gayomi";
+			};
+			name = Debug;
+		};
+		04EFF4B31D7FEB5A00397240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StudyPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.StudyPlannerTests;
+				PRODUCT_NAME = Gayomi;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gayomi.app/Gayomi";
+			};
+			name = Release;
+		};
+		04EFF4B51D7FEB5A00397240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StudyPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.StudyPlannerUITests;
+				PRODUCT_NAME = Gayomi;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StudyPlanner;
+			};
+			name = Debug;
+		};
+		04EFF4B61D7FEB5A00397240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StudyPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongseo.www.StudyPlannerUITests;
+				PRODUCT_NAME = Gayomi;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StudyPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EFF47E1D7FEB5900397240 /* Build configuration list for PBXProject "Gayomi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFF4AC1D7FEB5A00397240 /* Debug */,
+				04EFF4AD1D7FEB5A00397240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EFF4AE1D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "Gayomi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFF4AF1D7FEB5A00397240 /* Debug */,
+				04EFF4B01D7FEB5A00397240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EFF4B11D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "GayomiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFF4B21D7FEB5A00397240 /* Debug */,
+				04EFF4B31D7FEB5A00397240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EFF4B41D7FEB5A00397240 /* Build configuration list for PBXNativeTarget "GayomiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFF4B51D7FEB5A00397240 /* Debug */,
+				04EFF4B61D7FEB5A00397240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04EFF48D1D7FEB5A00397240 /* StudyPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04EFF48E1D7FEB5A00397240 /* StudyPlanner.xcdatamodel */,
+			);
+			currentVersion = 04EFF48E1D7FEB5A00397240 /* StudyPlanner.xcdatamodel */;
+			path = StudyPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04EFF47B1D7FEB5900397240 /* Project object */;
+}
